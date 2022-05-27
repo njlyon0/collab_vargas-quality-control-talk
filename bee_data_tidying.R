@@ -17,8 +17,10 @@ myWD
 
 # Load libraries
 # install.packages("devtools")
+# devtools::install_github("james-thorson/FishLife") # non-CRAN dependency of freeR that must be installedseparately
+# devtools::install_github("cfree14/freeR")
 # devtools::install_github("NJLyon-Projects/helpR")
-library(plyr); library(tidyverse); library(helpR)
+library(plyr); library(tidyverse); library(freeR); library(helpR)
 
 # Read in raw data
 bees_v0 <- read.csv(file = file.path("Data", "raw_bee_data.csv"))
@@ -39,6 +41,10 @@ range(bees_v0$Sampling_Event_ID, na.rm = TRUE)
 # Counting NAs
 plyr::count(is.na(bees_v0$Pinned))
 ## NA's aren't an issue in that column but nice to check
+
+# Can check the "completenes" of all columns in a dataframe with `freeR`
+freeR::complete(bees_v0)
+## Value is number of NAs per column
 
 # Look at contents of a character column
 unique(bees_v0$Height)
