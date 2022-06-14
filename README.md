@@ -12,3 +12,8 @@ While the code in this repository is meant to be relatively
 self-explanatory, we do have slides (in GoogleSlides format) that were
 presented in addition (see
 [here](https://docs.google.com/presentation/d/1uYX45wOeZg5vfbjecR9-JWbthwxdEEbbLV3XVXztIF8/edit#slide=id.p))
+
+## Supplemental Resources
+
+-   [7 Basic Quality Tools with
+    R](https://towardsdatascience.com/7-basic-tools-of-quality-using-r-49fef5481e07)
