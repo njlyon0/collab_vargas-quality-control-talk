@@ -17,3 +17,12 @@ presented in addition (see
 
 -   [7 Basic Quality Tools with
     R](https://towardsdatascience.com/7-basic-tools-of-quality-using-r-49fef5481e07)
+-   [Quantity is Nothing without Quality: Automated QA/QC for Streaming
+    Environmental Sensor
+    Data](https://academic.oup.com/bioscience/article/63/7/574/289294)
+-   [Implementation of a Data Management Quality Management Framework at
+    the Marine Institute,
+    Ireland](https://link.springer.com/article/10.1007/s12145-019-00432-w)
+-   [Slow improvement to the archiving quality of open datasets shared
+    by researchers in ecology and
+    evolution](https://ecoevorxiv.org/d63js/)
