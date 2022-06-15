@@ -19,7 +19,7 @@ myWD
 # install.packages("devtools")
 # devtools::install_github("james-thorson/FishLife") # non-CRAN dependency of freeR that must be installed separately
 # devtools::install_github("cfree14/freeR")
-# devtools::install_github("NJLyon-Projects/helpR")
+# devtools::install_github("njlyon0/helpR")
 library(plyr); library(tidyverse); library(freeR); library(helpR)
 
 # Read in raw data
